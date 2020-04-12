@@ -6,7 +6,7 @@
 int main() {
 	int fd = 0;
 
-	fd = open("./file.txt", O_RDWR);
+	fd = open("./file.txt", O_RDWR);// 文件描述符
 	if(-1 == fd) {
 		printf("open fail\n");
 		return 1;
